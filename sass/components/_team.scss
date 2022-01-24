@@ -32,34 +32,35 @@
    &__card--discription {
       margin-bottom: 16px;
    }
+
    &__social--list {
       display: flex;
       align-items: center;
       justify-content: center;
+   }
 
-      &__social--wrapper {
-         margin-right: 10px;
-         &:last-child {
-            margin-right: 0px;
-         }
-         &:hover {
-            transition: var(--transition-property);
-         }
+   &__social--wrapper {
+      margin-right: 10px;
+      &:last-child {
+         margin-right: 0px;
       }
-      &__social--link {
-         display: flex;
-         align-items: center;
-         justify-content: center;
-         width: 44px;
-         height: 44px;
-         border-radius: 50%;
+      &:hover {
+         transition: var(--transition-property);
       }
-      &__social--icon {
-         width: 20px;
-         height: 20px;
-         margin: auto;
-         fill: #afb1b8;
-      }
+   }
+   &__social--link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+   }
+   &__social--icon {
+      width: 20px;
+      height: 20px;
+      margin: auto;
+      fill: #afb1b8;
    }
 }
 

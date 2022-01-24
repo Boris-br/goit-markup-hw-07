@@ -97,52 +97,6 @@ a {
           justify-content: center;
 }
 
-.team__social--wrapper {
-  margin-right: 10px;
-}
-
-.team__social--wrapper:last-child {
-  margin-right: 0px;
-}
-
-.team__social--wrapper:hover, .team__social--wrapper:focus {
-  -webkit-transition: var(--transition-property);
-  transition: var(--transition-property);
-}
-
-.team__social--wrapper .team__social--link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  -webkit-transition: var(--transition-property);
-  transition: var(--transition-property);
-}
-
-.team__social--wrapper .team__social--link .team__social--icon {
-  width: 20px;
-  height: 20px;
-  margin: auto;
-  fill: #afb1b8;
-  -webkit-transition: var(--transition-property);
-  transition: var(--transition-property);
-}
-
-.team__social--wrapper:hover .team__social--icon,
-.team__social--wrapper:focus .team__social--icon {
-  fill: var(--primary-white-color);
-  -webkit-transition: var(--transition-property);
-  transition: var(--transition-property);
-}
-
 .footer .team__social--link {
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -475,20 +429,20 @@ a {
           justify-content: center;
 }
 
-.team__social--list__social--wrapper {
+.team__social--wrapper {
   margin-right: 10px;
 }
 
-.team__social--list__social--wrapper:last-child {
+.team__social--wrapper:last-child {
   margin-right: 0px;
 }
 
-.team__social--list__social--wrapper:hover {
+.team__social--wrapper:hover {
   -webkit-transition: var(--transition-property);
   transition: var(--transition-property);
 }
 
-.team__social--list__social--link {
+.team__social--link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -503,7 +457,7 @@ a {
   border-radius: 50%;
 }
 
-.team__social--list__social--icon {
+.team__social--icon {
   width: 20px;
   height: 20px;
   margin: auto;
