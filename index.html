@@ -73,9 +73,9 @@
             </div>
 
             <!-- всплывающее окно -->
-            <div class="modal-con is-hidden" data-modal>
+            <div class="modal__container is-hidden" data-modal>
                <form class="modal">
-                  <button class="modal-close-button" type="button" data-modal-close>
+                  <button class="modal__close-button" type="button" data-modal-close>
                      <svg width="18" height="18">
                         <use href="./images/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
                      </svg>
@@ -85,48 +85,24 @@
                      Имя
 
                      <input class="modal__input" type="text" name="name" required />
-                     <svg
-                        class="modal__icon"
-                        width="18"
-                        height="18"
-                        viewbox="0 0 18 18"
-                        xmlns="http://www.w3.org/2000/svg"
-                     >
-                        <path
-                           d="M9 9C10.6575 9 12 7.6575 12 6C12 4.3425 10.6575 3 9 3C7.3425 3 6 4.3425 6 6C6 7.6575 7.3425 9 9 9ZM9 10.5C6.9975 10.5 3 11.505 3 13.5V14.25C3 14.6625 3.3375 15 3.75 15H14.25C14.6625 15 15 14.6625 15 14.25V13.5C15 11.505 11.0025 10.5 9 10.5Z"
-                        />
-                     </svg>
-                  </label>
-                  <label class="modal__label">
-                     Почта
-
-                     <input class="modal__input" type="text" name="name" required />
-                     <svg
-                        class="modal__icon"
-                        width="18"
-                        height="18"
-                        viewbox="0 0 18 18"
-                        xmlns="http://www.w3.org/2000/svg"
-                     >
-                        <path
-                           d="M9 9C10.6575 9 12 7.6575 12 6C12 4.3425 10.6575 3 9 3C7.3425 3 6 4.3425 6 6C6 7.6575 7.3425 9 9 9ZM9 10.5C6.9975 10.5 3 11.505 3 13.5V14.25C3 14.6625 3.3375 15 3.75 15H14.25C14.6625 15 15 14.6625 15 14.25V13.5C15 11.505 11.0025 10.5 9 10.5Z"
-                        />
+                     <svg class="modal__icon" width="18" height="18">
+                        <use href="./images/symbol-defs.svg#icon-person"></use>
                      </svg>
                   </label>
                   <label class="modal__label">
                      Телефон
 
                      <input class="modal__input" type="text" name="name" required />
-                     <svg
-                        class="modal__icon"
-                        width="18"
-                        height="18"
-                        viewbox="0 0 18 18"
-                        xmlns="http://www.w3.org/2000/svg"
-                     >
-                        <path
-                           d="M9 9C10.6575 9 12 7.6575 12 6C12 4.3425 10.6575 3 9 3C7.3425 3 6 4.3425 6 6C6 7.6575 7.3425 9 9 9ZM9 10.5C6.9975 10.5 3 11.505 3 13.5V14.25C3 14.6625 3.3375 15 3.75 15H14.25C14.6625 15 15 14.6625 15 14.25V13.5C15 11.505 11.0025 10.5 9 10.5Z"
-                        />
+                     <svg class="modal__icon" width="18" height="18">
+                        <use href="./images/symbol-defs.svg#icon-phone"></use>
+                     </svg>
+                  </label>
+                  <label class="modal__label">
+                     Почта
+
+                     <input class="modal__input" type="text" name="name" required />
+                     <svg class="modal__icon" width="18" height="18">
+                        <use href="./images/symbol-defs.svg#icon-email"></use>
                      </svg>
                   </label>
                   <label class="modal__label modal__comment">
@@ -145,22 +121,12 @@
                         name="agreement"
                      />
                      <span class="agreement__checkbox">
-                        <svg
-                           width="16"
-                           height="16"
-                           viewbox="0 0 16 16"
-                           xmlns="http://www.w3.org/2000/svg"
-                        >
-                           <path
-                              d="M6.49577 10.8565L3.95933 8.27555L3.88826 8.20323L3.81693 8.2753L2.92892 9.17254L2.85955 9.24263L2.92868 9.31297L6.42441 12.8701L6.49574 12.9427L6.56706 12.8701L14.0713 5.23403L14.1402 5.16393L14.0713 5.09384L13.1896 4.1966L13.1183 4.12406L13.047 4.19657L6.49577 10.8565Z"
-                              fill="white"
-                              stroke="white"
-                              stroke-width="0.2"
-                           />
+                        <svg width="16" height="16">
+                           <use href="./images/symbol-defs.svg#icon-Vector"></use>
                         </svg>
                      </span>
                      <span class="agreement__text">Соглашаюсь с рассылкой и принимаю&nbsp;</span>
-                     <a class="agreement__link" href="" target="_blank">Условия договора</a>
+                     <a class="agreement__link" href="#" target="_blank">Условия договора</a>
                   </label>
                   <button class="modal-btn" type="submit">Отправить</button>
                </form>

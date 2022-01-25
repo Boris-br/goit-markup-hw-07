@@ -1,5 +1,5 @@
-/* modal-con */
-.modal-con {
+/* modal__container */
+.modal__container {
    position: fixed;
    top: 0;
    left: 50%;
@@ -16,7 +16,7 @@
       pointer-events: none;
    }
 }
-.modal-close-button {
+.modal__close-button {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -31,9 +31,10 @@
    cursor: pointer;
 }
 
-.modal-close-button:hover,
-.modal-close-button:focus {
-      fill: #2196f3;
+.modal__close-button:hover,
+.modal__close-button:focus {
+   fill: #2196f3;
+}
 
 .modal {
    position: absolute;
