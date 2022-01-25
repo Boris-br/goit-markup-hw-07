@@ -28,7 +28,7 @@
       position: relative;
       overflow: hidden;
    }
-   &__overlay--wrapper {
+   &__overlay-wrapper {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -40,7 +40,7 @@
       background-color: rgba(33, 150, 243, 0.9);
       transition: transform 250ms ease;
    }
-   &__overlay--text {
+   &__overlay-text {
       padding: 24px;
       color: var(--primary-white-color);
       font-size: 18px;
@@ -65,7 +65,7 @@
    }
 }
 
-.portfolio__link:hover .portfolio__overlay--wrapper,
-.portfolio__link:focus .portfolio__overlay--wrapper {
+.portfolio__link:hover .portfolio__overlay-wrapper,
+.portfolio__link:focus .portfolio__overlay-wrapper {
    transform: translatey(-100%);
 }
